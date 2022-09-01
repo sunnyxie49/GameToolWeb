@@ -1,0 +1,29 @@
+AppSettings["Region"] == "China" == "UAE" == "Korea" == "USA" == "Japan" == "Taiwan"
+AppSettings["GMT"] == "8"
+
+AppSettings["guild_icon_url_test"] == "http://127.0.0.1/upload/"
+AppSettings["guild_icon_url"] == "http://127.0.0.1/upload/"
+
+AppSettings["ServiceStart"] == "201005"
+AppSettings["use_item_shop"] == "false"
+AppSettings["gmPermission"]
+AppSettings["password_encode"]
+AppSettings["login_key"] == "rk{0}sk|{1}ek{2}|fk{3}|asdf|{4}|b34"
+
+AppSettings["auth_ip"]);
+AppSettings["auth_port"]);
+AppSettings["auth_password"];
+
+ConnectionStrings["auth_log"] == "server=127.0.0.1;database=Rappelz_game_log;user id=gmtool;password=znzlsglend12-"
+ConnectionStrings["statistics"] == "server=127.0.0.1;database=Rappelz_game_log;user id=gmtool;password=znzlsglend12-"
+ConnectionStrings["gmtool"] == "server=127.0.0.1;database=gmtool;user id=gmtool;password=znzlsglend12-"
+
+ConnectionStrings["billing"] == "server=127.0.0.1;database=BillCrux30;user id=gmtool;password=znzlsglend12-"
+ConnectionStrings["chat_log"] == "server=127.0.0.1;database=chat_log;user id=gmtool;password=znzlsglend12-"
+
+ConnectionStrings["game_db"] == "server=#@db_ip@#;database=#@database@#;user id=gmtool;password=znzlsglend12-"
+
+ConnectionStrings["game_log"]== "server=127.0.0.1;database=Rappelz_game_log;user id=gmtool;password=znzlsglend12-"
+
+ConnectionStrings["resource0"] == "server=127.0.0.1;database=arcadia;user id=gmtool;password=znzlsglend12-"
+ 

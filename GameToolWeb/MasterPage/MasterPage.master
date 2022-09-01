@@ -1,0 +1,97 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage_MasterPage, App_Web_masterpage.master.ec608581" %><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="/Common/css/bootstrap.css" />    
+    <link rel="stylesheet" href="/Common/css/customize.css" />
+    <link rel="stylesheet" href="/Common/css/jquery-ui-1.9.2.custom.css" />
+    <script src="/Common/js/jquery-1.8.3.js" type="text/javascript"></script>
+    <script src="/Common/js/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+    <script src="/Common/js/jquery-ui-timepicker-addon.js" type="text/javascript"></script>
+    <script src="/Common/js/bootstrap.min.js" type="text/javascript"></script>    
+</head>
+<body>
+    <form id="form1" runat="server" action="">
+        <div class="navbar navbar-fixed-top">
+	        <div class="navbar-inner">
+		        <div class="container-fluid">
+			        <a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			        </a>
+			        <span class="brand"><img src="/Common/img/logo_rappelz.png" alt="RAPPELZ" /></span>
+			        <div class="nav-collapse collapse">
+				        <ul class="nav">
+					        <li class="dropdown">
+						        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lbGame" runat="server" meta:resourcekey="hlGameResource1">Game</asp:Label> <b class="caret"></b></a>
+						        <ul class="dropdown-menu">
+							        <li><asp:HyperLink ID="hlGame1" runat="server" NavigateUrl="~/Game/default.aspx" meta:resourcekey="hlGame1Resource1">Character</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlGame2" runat="server" NavigateUrl="~/Game/character.aspx" meta:resourcekey="hlGame2Resource1">Character(All Server)</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlGame3" runat="server" NavigateUrl="~/Game/guild.aspx" meta:resourcekey="hlGame3Resource1">Guild</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlGame4" runat="server" NavigateUrl="~/Game/dungeon.aspx" meta:resourcekey="hlGame4Resource1">Dungeon</asp:HyperLink></li>
+							        <li><a href="/Game/AvatarItemMove.aspx">item Move</a></li>
+							        <li><a href="/Game/Account.aspx">Account List</a></li>
+							        <li><a href="/Game/ItemCount.aspx">Item Count</a></li>
+						        </ul>
+					        </li>
+					        <li class="dropdown">
+						        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lbLog" runat="server" meta:resourcekey="hlLogGameResource1"></asp:Label> <b class="caret"></b></a>
+						        <ul class="dropdown-menu">
+                                    <%--<li><asp:HyperLink ID="hlLog1" runat="server" NavigateUrl="~/Log/default.aspx" meta:resourcekey="hlLog1Resource1" Visible="false">Game Server Log</asp:HyperLink></li>--%>
+							        <li><asp:HyperLink ID="hlLog4" runat="server" NavigateUrl="~/Log/Game_Server.aspx" meta:resourcekey="hlLog4Resource1">Game Server Log(BigInt)</asp:HyperLink></li>
+                                    <li><asp:HyperLink ID="hlLog5" runat="server" NavigateUrl="~/Log/chat_log.aspx"  Visible="false">Chat Log</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlLog2" runat="server" NavigateUrl="~/Log/game_auth.aspx" meta:resourcekey="hlLog2Resource1">Auth Server Log</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlLog3" runat="server" NavigateUrl="~/Log/Admin_Cheat.aspx" meta:resourcekey="hlLog3Resource1">GmTool Cheat Log</asp:HyperLink></li>
+						        </ul>
+					        </li>
+					        <li class="dropdown">
+						        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lbStatistics" runat="server" meta:resourcekey="hlStatisticsResource1"></asp:Label> <b class="caret"></b></a>
+						        <ul class="dropdown-menu">
+							        <li><asp:HyperLink ID="hlStatistics1" runat="server" NavigateUrl="~/Statistics/game_cu.aspx" meta:resourcekey="hlStatistics1Resource1">Game CU</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlStatistics2" runat="server" NavigateUrl="~/Statistics/game_uv.aspx" meta:resourcekey="hlStatistics2Resource1">Game UV</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlStatistics3" runat="server" NavigateUrl="~/Statistics/game_ru.aspx" meta:resourcekey="hlStatistics3Resource1">Game RU</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlStatistics4" runat="server" NavigateUrl="~/Statistics/game_lv.aspx" meta:resourcekey="hlStatistics4Resource1">Character LV</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlStatistics5" runat="server" NavigateUrl="~/Statistics/game_gold.aspx" meta:resourcekey="hlStatistics5Resource1">Gold</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlStatistics6" runat="server" NavigateUrl="~/Statistics/game_character.aspx">Character CSV</asp:HyperLink></li>
+							        <li><a href="/Statistics/game_summon_taming.aspx">summon taming</a></li>
+									<li><a href="/Statistics/server_down.aspx">server down</a></li>
+						        </ul>
+					        </li>
+					        <li class="dropdown">
+						        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lbNotice" runat="server" meta:resourcekey="hlNoticeResource1"></asp:Label> <b class="caret"></b></a>
+						        <ul class="dropdown-menu">
+							        <li><a href="/Notice/client_game.aspx">Game Notice</a></li>
+							        <li><a href="/Notice/auto_notice.aspx">Game Auto Notice</a></li>
+							        <li><a href="/Notice/all_buff.aspx">Game State</a></li>
+						        </ul>
+					        </li>
+					        <li><asp:HyperLink ID="hlResource" runat="server" meta:resourcekey="hlResourceResource1"></asp:HyperLink></li>
+					        <li class="dropdown">
+						        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><asp:Label ID="lbAdmin" runat="server" meta:resourcekey="hlAdminResource1"></asp:Label> <b class="caret"></b></a>
+						        <ul class="dropdown-menu">
+							        <li><asp:HyperLink ID="hlAdmin1" runat="server" NavigateUrl="~/Admin/Default.aspx" meta:resourcekey="hlAdmin1Resource1">Admin List</asp:HyperLink></li>
+							        <li><a href="javascript:void(0);" onclick="window.open('/Admin/Admin_add.aspx','admin_add','width=500,height=350,toolbar=no,menubar=no,status=yes,scrollbars=yes,resizable=no');">Add Admin</a></li>
+							        <li><asp:HyperLink ID="hlAdmin2" runat="server" NavigateUrl="~/Admin/authority_grade.aspx" meta:resourcekey="hlAdmin2Resource1">Authority Grade</asp:HyperLink></li>
+							        <li><asp:HyperLink ID="hlAdmin3" runat="server" NavigateUrl="~/Admin/authority_admin.aspx" meta:resourcekey="hlAdmin3Resource1">Authority Admin</asp:HyperLink></li>							        
+						        </ul>
+					        </li>
+				        </ul>
+				        <ul class="nav pull-right">
+					        <li class="loginText"><p><strong><%=sAccount %></strong><asp:Label ID="lbLogin" runat="server" meta:resourcekey="lbLoginResource1"></asp:Label></p></li>
+					        <li><asp:HyperLink ID="hlLogout" runat="server" NavigateUrl="/logout_process.aspx"><span runat="server" id="spanLogout" meta:resourcekey="hlLogoutResource1">logout</span> <i class="icon-off icon-white"></i></asp:HyperLink></li>
+				        </ul>
+			        </div>
+		        </div>
+	        </div>
+        </div>        
+        <asp:ContentPlaceHolder id="CPMainPage" runat="server"></asp:ContentPlaceHolder>
+        <div class="footer">
+	        <div class="innerBox">
+		        <p class="footer_logo">Gala Lab</p>
+		        <p class="copyright">Copyright © Gala Lab Corp.By RevolutionTeam rappelz.ae All Rights Reserved.</p>
+	        </div>
+        </div>
+    </form>
+</body>
+</html>

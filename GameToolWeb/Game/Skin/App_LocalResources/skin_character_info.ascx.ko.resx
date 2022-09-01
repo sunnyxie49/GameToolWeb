@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAccountResource1.Text" xml:space="preserve">
+    <value>아이디</value>
+  </data>
+  <data name="lblAccountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdv_chat_countResource1.Text" xml:space="preserve">
+    <value>adv_chat_count</value>
+  </data>
+  <data name="lblAdv_chat_countResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChaosResource1.Text" xml:space="preserve">
+    <value>라크</value>
+  </data>
+  <data name="lblChaosResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChaResource1.Text" xml:space="preserve">
+    <value>cha</value>
+  </data>
+  <data name="lblChaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChat_block_timeResource1.Text" xml:space="preserve">
+    <value>채팅 블럭 시간</value>
+  </data>
+  <data name="lblChat_block_timeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreateDateResource1.Text" xml:space="preserve">
+    <value>생성시간</value>
+  </data>
+  <data name="lblCreateDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeleteDateResource1.Text" xml:space="preserve">
+    <value>삭제시간</value>
+  </data>
+  <data name="lblDeleteDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDkcResource1.Text" xml:space="preserve">
+    <value>dkc</value>
+  </data>
+  <data name="lblDkcResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExpResource1.Text" xml:space="preserve">
+    <value>EXP</value>
+  </data>
+  <data name="lblExpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGoldResource1.Text" xml:space="preserve">
+    <value>루피</value>
+  </data>
+  <data name="lblGoldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGuildResource1.Text" xml:space="preserve">
+    <value>길드</value>
+  </data>
+  <data name="lblGuildResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblImmoralPointResource1.Text" xml:space="preserve">
+    <value>이모럴포인트</value>
+  </data>
+  <data name="lblImmoralPointResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJobResource1.Text" xml:space="preserve">
+    <value>직업</value>
+  </data>
+  <data name="lblJobResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblJPResource1.Text" xml:space="preserve">
+    <value>JP</value>
+  </data>
+  <data name="lblJPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoginCntResource1.Text" xml:space="preserve">
+    <value>로그인 횟수</value>
+  </data>
+  <data name="lblLoginCntResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoginDateResource1.Text" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="lblLoginDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLogoutDateResource1.Text" xml:space="preserve">
+    <value>로그아웃</value>
+  </data>
+  <data name="lblLogoutDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value>아바타명</value>
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPartyResource1.Text" xml:space="preserve">
+    <value>파티</value>
+  </data>
+  <data name="lblPartyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPkcResource1.Text" xml:space="preserve">
+    <value>pkc</value>
+  </data>
+  <data name="lblPkcResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlayTimeResource1.Text" xml:space="preserve">
+    <value>플레이시간</value>
+  </data>
+  <data name="lblPlayTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTalentPointResource1.Text" xml:space="preserve">
+    <value>TalentPoint</value>
+  </data>
+  <data name="lblPosionResource1.Text" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="lblPosionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPositionLayerResource1.Text" xml:space="preserve">
+    <value>채널</value>
+  </data>
+  <data name="lblPositionLayerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSkillResetResource1.Text" xml:space="preserve">
+    <value>SkillReset</value>
+  </data>
+  <data name="lblRaceResource1.Text" xml:space="preserve">
+    <value>종족</value>
+  </data>
+  <data name="lblRaceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSexResource1.Text" xml:space="preserve">
+    <value>성별</value>
+  </data>
+  <data name="lblSexResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSidResource1.Text" xml:space="preserve">
+    <value>sid</value>
+  </data>
+  <data name="lblSidResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStaminaResource1.Text" xml:space="preserve">
+    <value>스태미나</value>
+  </data>
+  <data name="lblStaminaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArenaPointResource1.Text" xml:space="preserve">
+    <value>ArenaPoint</value>
+  </data>
+  <data name="ltrAccountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrAdv_chat_countResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrChaosResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrChaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrChat_block_timeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrCreateDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrDeleteDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrDkcResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrExpResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrGoldResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrGuildResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrImmoralPointResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrJobResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrJPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrLoginCntResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrLoginDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrLogoutDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrPartyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrPkcResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrPlayTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+	<data name="ltrTalentPointResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrPositionLayerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrPositionXResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrPositionYResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrPositionZResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrSkillResetResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrRaceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrSexResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrSidResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrStaminaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrArenaPointResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltrTotalJPResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+</root>

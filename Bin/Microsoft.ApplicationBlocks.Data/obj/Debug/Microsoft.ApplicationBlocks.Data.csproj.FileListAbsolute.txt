@@ -1,0 +1,2 @@
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb

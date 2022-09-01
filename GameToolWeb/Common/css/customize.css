@@ -1,0 +1,397 @@
+﻿/* color */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 12px -2px;
+}
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.subnav {
+  width: 100%;
+  height: 36px;
+  margin-bottom: 30px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+.subnav .nav > li > a {
+  margin: 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-right: 1px solid #e5e5e5;
+  border-radius: 0;
+}
+.subnav .nav > li:last-child > a {
+  border-right: none;
+}
+.navbar .brand {
+  padding: 4px 10px;
+}
+.nav .loginText p {
+  display: block;
+  margin: 0;
+  padding: 10px 10px 0;
+  color: #ffffff;
+}
+.table {
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  margin: 0;
+  font-size: 12px -2px;
+}
+form {
+  margin: 0;
+}
+select {
+  margin: 0;
+  width: auto;
+}
+textarea {
+  resize: none;
+}
+input[type="text"] {
+  margin-bottom: 0;
+}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  font-size: 12px -2px;
+}
+.radio.inline,
+.checkbox.inline {
+  zoom: 1;
+}
+.radio.inline:after,
+.checkbox.inline:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.control-group {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+.control-label {
+  width: auto;
+  margin: 4px 10px;
+}
+div + .checkbox.inline,
+select + .checkbox.inline {
+  margin: 0 10px;
+}
+.mt4 {
+  margin-top: 4px;
+}
+/* color */
+.bgGray {
+  background-color: #f4f4f4;
+}
+.blueText {
+  color: #0061f3;
+}
+.grayText {
+  color: #999999;
+}
+.redText {
+  color: #ef2513;
+}
+.resultArea {
+  position: relative;
+}
+.resultArea .searchResult {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.characterInfo_btnArea {
+  zoom: 1;
+}
+.characterInfo_btnArea:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.characterInfo_btnArea li {
+  float: left;
+  width: 10%;
+}
+.chaData label {
+  font-weight: bold;
+}
+.chaData input {
+  width: 80%;
+}
+.textArea textarea {
+  width: 520px;
+  margin-bottom: 0;
+}
+.textArea input {
+  vertical-align: bottom;
+}
+/* table common */
+.centerTable td {
+  text-align: center;
+}
+td.leftAlign {
+  text-align: left;
+}
+td.centerAlign {
+  text-align: center;
+}
+.listTable td:first-child {
+  text-align: center;
+}
+.listTable td:last-child {
+  text-align: center;
+}
+input.lastBtn {
+  margin-top: 4px;
+}
+dl.itemInfo {
+  background-color: #f9f9f9;
+}
+dl.itemInfo dt,
+dl.itemInfo dd {
+  padding: 2px;
+}
+.itemModify input {
+  margin-bottom: 4px;
+}
+.centerBtn {
+  text-align: center;
+}
+.sectionLine td {
+  border-top-width: 4px;
+}
+.smallTable {
+  width: 30%;
+}
+.leftBordernone th,
+.leftBordernone td {
+  border-left: none;
+}
+.halfWidth {
+  width: 979px;
+}
+.nameMinwidth {
+  min-width: 160px;
+}
+/* mini popup */
+.miniWrap {
+  width: 346px;
+}
+/* calendar */
+.calendar .header {
+  position: relative;
+  height: 32px;
+  padding-bottom: 4px;
+}
+.calendar h5 {
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
+}
+.calendar .pager {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.calendar .table {
+  border-bottom: 1px solid #dddddd;
+}
+.calendar .table a {
+  text-decoration: none;
+}
+.calendar .table .grayTexthover {
+  color: #999999;
+}
+.calendar .table .today {
+  color: #fff;
+  background-color: #2fa4e7;
+}
+/* Statistics */
+.statisticsBox {
+  zoom: 1;
+}
+.statisticsBox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.calArea {
+  float: left;
+  width: 240px;
+  padding-right: 16px;
+}
+.statisticsArea {
+  float: left;
+  max-width: 1100px;
+}
+.dataList {
+  zoom: 1;
+}
+.dataList:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.dataList li {
+  float: left;
+}
+.dataList li.monthList {
+  width: 52%;
+}
+.dataList li.dateList {
+  width: 45%;
+  padding-left: 10px;
+}
+.span10 .month {
+  width: 50%;
+  padding-bottom: 20px;
+}
+/* game server log */
+.logSearchTable th,
+.logSearchTable td {
+  border: none;
+  background: none;
+  text-align: left;
+}
+.logCheckTable input {
+  margin: 0;
+}
+.logCheckTable label {
+  margin: 0 10px 0 5px;
+}
+.etcTable {
+  min-width: 1200px;
+}
+/* Login page */
+.form-signin {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .form-signin-heading {
+  text-align: center;
+}
+.form-signin .form-signin-heading img {
+  width: 70%;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+/* footer */
+.footer {
+  margin-top: 30px;
+}
+.footer .innerBox {
+  zoom: 1;
+  width: 470px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.footer .innerBox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.footer p {
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer_logo {
+  float: left;
+  width: 190px;
+  background: url(/common/img/logo_footer_galalab.png) no-repeat;
+  overflow: hidden;
+  text-indent: -10000em;
+}
+.footer .copyright {
+  float: right;
+}
+/* responsive */
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+  /* table common */
+  .halfWidth {
+    width: 100%;
+  }
+}
+
+
+/* responsive */
+@media(max-width:979px){
+body{padding-top:0;}
+
+/* table common */
+.halfWidth{width:100%;}
+}
+
+/* 20130114 */
+.cblServer label{padding-right:20px;}
+
+.item_effect
+{
+    line-height: 140%;    
+    padding:5px;
+    
+    border-right: #000000 1px groove;
+    border-top: #000000 1px groove;
+    border-left: #000000 1px groove;
+    border-bottom: #000000 1px groove;
+    z-index: 1;
+    visibility: hidden;
+    display: none;
+    background-color: White;
+    position: absolute;
+}
+
+.chaData .w100{width:100%;}
+
+.ml3{ margin-left:3px;}

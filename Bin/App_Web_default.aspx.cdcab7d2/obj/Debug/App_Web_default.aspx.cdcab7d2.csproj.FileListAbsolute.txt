@@ -1,0 +1,10 @@
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\App_Web_default.aspx.cdcab7d2.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\App_Web_default.aspx.cdcab7d2.pdb
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\App_Code.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\Rappelz.GMToolV3.BizDac.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\Admin_Channel.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\App_Code.pdb
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\Rappelz.GMToolV3.BizDac.pdb
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\Admin_Channel.pdb
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Web_default.aspx.cdcab7d2\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb

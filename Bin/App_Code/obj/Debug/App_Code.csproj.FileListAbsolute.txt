@@ -1,0 +1,8 @@
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Code\bin\Debug\App_Code.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Code\bin\Debug\App_Code.pdb
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Code\bin\Debug\Admin_Channel.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Code\bin\Debug\Rappelz.GMToolV3.BizDac.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Code\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Code\bin\Debug\Admin_Channel.pdb
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Code\bin\Debug\Rappelz.GMToolV3.BizDac.pdb
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\App_Code\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb

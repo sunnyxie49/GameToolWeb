@@ -1,0 +1,2 @@
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\Admin_Channel\bin\Debug\Admin_Channel.dll
+E:\VS PROJECT\GameToolWeb\GameToolWeb\Bin\Admin_Channel\bin\Debug\Admin_Channel.pdb
